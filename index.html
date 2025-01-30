@@ -3,16 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Popup Alert</title>
+    <title>Auto Popup</title>
     <script>
-        function showPopup(event) {
-            event.preventDefault(); // Prevents the link from redirecting
+        window.onload = function() {
             alert("YOU ARE HACKED");
-        }
+        };
     </script>
 </head>
 <body>
-    <h2>Click the link below:</h2>
-    <a href="#" onclick="showPopup(event)">Click Me</a>
+    <h2>Welcome to the site!</h2>
 </body>
 </html>
